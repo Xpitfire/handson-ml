@@ -10,3 +10,4 @@ Page | Error | Correction
 67 | Suggestion: DataFrameSelector is missing on code and only explained at the bottom | Indicate in a comment that the DataFrameSelector is a custom code (I was searching 15 min for the package until I continued reading and found the code)
 79 | Code results to error due to mldata.org server HTTPError: HTTP Error 500: INTERNAL SERVER ERROR | Solution from stackoverflow: https://stackoverflow.com/questions/43149272/cannot-get-mnist-database-through-anaconda-jupyter
 86 | wrong variable usage in code block: precision_score(y\_train\_5, y\_pred) | replace with: precision_score(y\_train\_5, y\_train\_pred)
+93 | wrong code: plot\_roc\_curve(fpr\_forest, tpr\_forest, "Random Forest") and plt.legend(loc="bottom right") | add label: plot\_roc\_curve(fpr\_forest, tpr\_forest, label="Random Forest") and change: plt.legend(loc="lower right")
