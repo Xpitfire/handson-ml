@@ -11,3 +11,4 @@ Page | Error | Correction
 79 | Code results to error due to mldata.org server HTTPError: HTTP Error 500: INTERNAL SERVER ERROR | Solution from stackoverflow: https://stackoverflow.com/questions/43149272/cannot-get-mnist-database-through-anaconda-jupyter
 86 | wrong variable usage in code block: precision_score(y\_train\_5, y\_pred) | replace with: precision_score(y\_train\_5, y\_train\_pred)
 93 | wrong code: plot\_roc\_curve(fpr\_forest, tpr\_forest, "Random Forest") and plt.legend(loc="bottom right") | add label: plot\_roc\_curve(fpr\_forest, tpr\_forest, label="Random Forest") and change: plt.legend(loc="lower right")
+101 | code lines are inversed and code is assigned but not used: noise = ...; noise = ... | noise = ...; X\_train\_mod = X\_train + noise
