@@ -14,3 +14,6 @@ Page | Error | Correction
 98 | missing function / reference: plot_digits | Indicate that the function is only available within the GitHub repo or so
 101 | code lines are inversed and code is assigned but not used: noise = ...; noise = ... | noise = ...; X\_train\_mod = X\_train + noise
 102 | code missing: plot_digit is not defined | either refer to the GitHub repo or define the function; this might seem picky, but up until now I was able to use the book as a guid and implement the code on my own step-by-step
+- | math_linear_algebra.ipynb: Calculating the angle between vectors: Note that if u⋅v=0, it follows that  θ=π/4 | θ=π/2
+- | math_linear_algebra.ipynb: Matrix multiplication: It is also distributive over addition of matrices, meaning that (Q+R)S=QS+RS | Square matrix are distributive over addition
+- | math_linear_algebra.ipynb: Matrix multiplication – Projection onto an axis: Now let's look at the dot product P⋅U | U⋅P
