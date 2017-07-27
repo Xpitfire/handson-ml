@@ -18,4 +18,4 @@ Page | Error | Correction
 - | math_linear_algebra.ipynb: Matrix multiplication: It is also distributive over addition of matrices, meaning that (Q+R)S=QS+RS | Square matrix are distributive over addition
 - | math_linear_algebra.ipynb: Matrix multiplication – Projection onto an axis: Now let's look at the dot product P⋅U | U⋅P
 148 | found: svm_clf.fit(X_scaled, y) | should be: svm_clf.fit(X, y) due to pipeline
-149 | missing code and hint | example doesn't load the dataset and set the X, y values
+149 | missing code or hint fro X,y assignment | add code: X, y = datasets.make_moons(n_samples=100, noise=0.15, random_state=42)
